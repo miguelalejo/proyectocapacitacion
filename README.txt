@@ -1,1 +1,1 @@
-Proyecto desarrollado para el curso de capacitacion de alumnos
+Paginas web utilizadas para la capacitacion de alumnos 
