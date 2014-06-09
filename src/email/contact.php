@@ -19,23 +19,7 @@ if (isset($_POST['email'])) {
     $first_name = $_POST['name'];    
     $email_from = $_POST['email'];    
     $telephone = $_POST['telephone'];    
-    $comments = $_POST['comments'];    
-    $error_message = "";    
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';    
-    if (!preg_match($email_exp, $email_from)) {        
-        $error_message .= 'La direcci&oacute;n de correo no es v&aacute;lida.<br />';        
-    }    
-    $string_exp = "/^[A-Za-z .'-]+$/";    
-    if (!preg_match($string_exp, $first_name)) {        
-        $error_message .= 'El nombre no es v&aacute;lido.<br />';        
-    }
-    $string_exp = "/^[0-9]+$/";    
-    if (!preg_match($string_exp, $first_name)) {        
-        $error_message .= 'La direccion de correo es incorrcta.<br />';        
-    }
-    if (strlen($error_message) > 0) {        
-        died($error_message);        
-    }
+    $comments = $_POST['comments'];       
     $email_message = "Detalles del correo.\n\n";    
     function clean_string($string)
     {        
