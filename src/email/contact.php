@@ -11,7 +11,7 @@ if (isset($_POST['email'])) {
         echo "Por favor intente re-cargar la p&aacute;gina y enviar el correo nuevamente.<br /><br />";
         die();
     }    
-    if (!isset($_POST['first_name']) || !isset($_POST['email']) || !isset($_POST['telephone']) || !isset($_POST['comments'])) {
+    if (!isset($_POST['name']) || !isset($_POST['email']) || !isset($_POST['telephone']) || !isset($_POST['comments'])) {
         
         died('Por favor todos lo campos deben estar llenos.');
         
