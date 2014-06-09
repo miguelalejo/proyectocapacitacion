@@ -649,7 +649,7 @@
 			<div class="container">
 				<h1 class="section-title scrollimation scale-in"><span>Contactanos</span></h1>
 				<div class="row">
-					<div id="contact-form" class="col-sm-5 contact-info scrollimation fade-right">
+					<div id="address-form" class="col-sm-5 contact-info scrollimation fade-right">
 						<p class="address-control">
 							Para mayor informaci&oacute;n sobre el costo de los cursos y/o asesor&iacute;a llamanos y contactate con nuestro equipo.
 						</p>
@@ -692,7 +692,7 @@
 						</ul>
 
 					</div>
-					<form id="contact-form" class="col-sm-7 scrollimation fade-left" action="email/contact.php" method="post">
+					<form id="contact-form" class="col-sm-7 scrollimation fade-left" action="" method="post">
 
 						<div class="form-group">
 							<div class="controls">
@@ -708,14 +708,14 @@
 								<input id="contact-mail" name="email" placeholder="Cu&aacute;l es tu correo?" class="form-control input-lg requiredField" data-error-empty="Correo requerido" data-error-invalid="Correo Inv&aacute;lido" type="email" required >
 							</div>
 						</div><!-- End email input -->
-						
+
 						<div class="form-group">
 							<div class=" controls">
 								<i class="glyphicon glyphicon-phone"></i>
 								<input id="contact-mail" name="telephone" pattern="[0-9]*" placeholder="Cu&aacute;l es tu tel&eacute;fono?" class="form-control input-lg requiredField" data-error-empty="Tel&eacute;fono Requerido" data-error-invalid="Tel&eacute;fono Inv&aacute;lido" type="tel" required >
 							</div>
 						</div><!-- End phone input -->
-												
+
 						<div class="form-group">
 							<div class="controls">
 								<i class="glyphicon glyphicon-pencil"></i>
@@ -724,9 +724,10 @@
 						</div><!-- End textarea -->
 
 						<p>
-							<button name="submit" type="submit" class="btn btn-theme btn-lg" data-error-message="Error!" data-sending-message="Enviando..." data-ok-message="Mensaje Enviado">
+							<button id="submitemail" name="submit" type="submit" class="btn btn-theme btn-lg" data-error-message="Error!" data-sending-message="Enviando..." data-ok-message="Mensaje Enviado">
 								<i class="icon-location-arrow"></i>ENVIAR MENSAJE
 							</button>
+							<div id="success"></div>
 						</p>
 						<input name="submitted" id="submitted" value="true" type="hidden">
 
@@ -805,6 +806,7 @@
 		<script src="js/contact.js"></script>
 		<script src="js/designr.js"></script>
 		<script src="js/style-switcher.js"></script>
+		<script src="js/email.js"></script>
 
 		<!--Style Switcher-->
 		<div style="right: -222px;" id="style-switcher">
@@ -822,7 +824,6 @@
 				<li id="grass"></li>
 				<li id="purple"></li>
 				<li id="pink"></li>
-
 				<li id="brown"></li>
 				<li id="gray"></li>
 				<li id="black"></li>
