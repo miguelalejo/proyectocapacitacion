@@ -26,7 +26,7 @@
 #toggle-switcher [class*=icon]{
 	font-size:32px;
 	line-height:50px;
-	color:#74C7D5;
+	color:#33A1DE;
 }
 
 #style-switcher h1 {
@@ -84,3 +84,19 @@
 #style-switcher ul li#pink{
     background:#f1678d;
 }
+
+#style-switcher ul li#black{
+    background:#000000;
+}
+
+#style-switcher ul li#blue{
+    background:#33A1DE;
+}
+
+#style-switcher ul li#brown{
+    background:#d2b48c;
+} 	
+
+#style-switcher ul li#gray{
+    background:#696969;
+} 	

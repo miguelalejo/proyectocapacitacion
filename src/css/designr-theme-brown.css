@@ -42,7 +42,7 @@ h4,
 h5,
 h6{
 	font-family: Lato, sans-serif;
-	color:#f1678d;
+	color:#d2b48c;
 }
 
 h1 {
@@ -60,7 +60,7 @@ h1.section-title{
     line-height:64px;
     font-weight:300;
     text-align:center;
-    color:#f1678d;
+    color:#d2b48c;
     z-index:1;
 }
 
@@ -102,13 +102,13 @@ a:focus {
 }
 
 a {
-  color: #883d53;
+  color: #536177;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #984d63;
+  color: #637187;
   text-decoration: none;
 }
 
@@ -136,7 +136,7 @@ body {
 
 .btn-theme{
 	color:#fff;
-	background-color:#f1678d;
+	background-color:#d2b48c;
 	padding:15px 90px;
 	font-size:24px;
 	font-weight:300;
@@ -150,7 +150,7 @@ body {
 .btn-theme:hover{
 	cursor:pointer;
 	color:#fff;
-	background-color:#f386a0;
+	background-color:#9fb8e0;
 }
 
 .btn-theme:active,
@@ -177,7 +177,7 @@ body {
 .btn-theme.transparent:hover,
 .btn-theme.transparent:focus,
 .btn-theme.transparent:active{
-	color:#f1678d;
+	color:#d2b48c;
 	background-color:#fff;
 	border:2px solid #fff;
 	opacity:1;
@@ -204,7 +204,7 @@ body {
 }
 
 #main-nav.scrolled .navbar-brand{
-    color:#f1678d;
+    color:#d2b48c;
 }
 
 #main-nav{
@@ -221,12 +221,12 @@ body {
 }
 
 #main-nav.scrolled .navbar-toggle{
-    color:#f1678d;
-    border-color:#f1678d;
+    color:#d2b48c;
+    border-color:#d2b48c;
 }
 
 #main-nav.scrolled .navbar-toggle .icon-bar{
-    background:#f1678d;
+    background:#d2b48c;
 }
 
 #main-nav .container{
@@ -254,7 +254,7 @@ body {
 #main-nav.scrolled .nav a,
 #main-nav.scrolled .nav a:active,
 #main-nav.scrolled .nav a:hover{
-    color:#f1678d;
+    color:#d2b48c;
 }
 
 
@@ -299,8 +299,8 @@ body {
 
 #main-nav.scrolled .nav a:hover:before,
 #main-nav.scrolled .nav li.active a:before {
-	color: #f1678d;
-	text-shadow: 12px 0 #f1678d, -12px 0 #f1678d;
+	color: #d2b48c;
+	text-shadow: 12px 0 #d2b48c, -12px 0 #d2b48c;
 }
 
 .no-textshadow #main-nav .nav a:before {
@@ -317,7 +317,7 @@ body {
 
 .jumbotron {
     background:transparent;
-    color:#f1678d;
+    color:#d2b48c;
 }
 
 header.jumbotron{
@@ -405,7 +405,7 @@ header.jumbotron{
 
 #services .row.line {
     height:6px;
-    background:#f1678d;
+    background:#d2b48c;
     margin-bottom:24px;
 }
 
@@ -414,7 +414,7 @@ header.jumbotron{
     display:block;
     width:20px;
     height:20px;
-    background:#f1678d;
+    background:#d2b48c;
     border:5px solid #fff;
     border-radius:50%;
 }
@@ -431,7 +431,7 @@ header.jumbotron{
     line-height:130px;
     color:#ccc;
     background:none;
-    border:10px solid #f1678d;
+    border:10px solid #d2b48c;
     border-radius:50%;
     z-index:1;
     -webkit-transition:color 0.2s ease-in;
@@ -448,9 +448,9 @@ header.jumbotron{
     position:absolute;
     width:100%;
     height:100%;
-    background:#f1678d;
+    background:#d2b48c;
     border-radius:50%;
-    border:2px solid #f1678d;
+    border:2px solid #d2b48c;
 	-webkit-box-sizing: content-box; 
 	-moz-box-sizing: content-box; 
 	box-sizing: content-box;
@@ -506,7 +506,7 @@ header.jumbotron{
 ------------------------*/
 
 #about {
-    background:#f1678d;
+    background:#d2b48c;
     color:#fff;
     padding:80px 0;
 }
@@ -547,8 +547,8 @@ header.jumbotron{
 
 #skills {
     padding-top:80px;
-    color:#984d63;
 	background:#fff;
+    color:#637187;
 }
 
 .skills .col-sm-3 {
@@ -587,7 +587,7 @@ header.jumbotron{
 
 #skills .skills h2 {
     margin:0 0 80px;
-    color:#984d63;
+    color:#637187;
     font-size:24px;
     font-weight:300;
 }
@@ -660,7 +660,7 @@ header.jumbotron{
 
 #filter-works ul li:hover a,
 #filter-works ul li.active a{
-    color:#f1678d;
+    color:#d2b48c;
 }
 
 .masonry-wrapper{
@@ -720,7 +720,7 @@ header.jumbotron{
     height:100%;
     top:0;
     left:0;
-    background:#f1678d;
+    background:#d2b48c;
     opacity:0;
 	filter:alpha(opacity=0);
     -webkit-transition:all 0.3s ease-out;
@@ -873,7 +873,7 @@ header.jumbotron{
 .modal-header{
     height:60px;
     border:none;
-    border-bottom:1px solid #f1678d;
+    border-bottom:1px solid #d2b48c;
     margin-bottom:10px;
 }
 
@@ -886,7 +886,7 @@ header.jumbotron{
 }
 
 .modal-header .close:hover{
-    color:#f1678d;
+    color:#d2b48c;
     opacity:1;
 }
 
@@ -914,7 +914,7 @@ header.jumbotron{
 }
 
 .modal-body h1{
-    color:#f1678d;
+    color:#d2b48c;
     margin:200px 0 24px;
     font-size:32px;
 }
@@ -962,7 +962,7 @@ header.jumbotron{
 
 #twitter {
     color:#fff;
-    background:#f1678d;
+    background:#d2b48c;
     padding:60px 0;
 }
 
@@ -1067,17 +1067,17 @@ header.jumbotron{
 
 #contact {
     background:transparent;
-    color:#f1678d;
+    color:#d2b48c;
 	padding:80px 0; 
 }
 
 #contact .section-title {
-    color:#f1678d;
+    color:#d2b48c;
     margin-bottom:84px;
 }
 
 #contact .section-title [class*=icon]{
-    color:#f1678d;
+    color:#d2b48c;
 	-webkit-transform: rotate(-15deg);
 	-moz-transform: rotate(-15deg);
 	-ms-transform: rotate(-15deg);
@@ -1125,7 +1125,7 @@ header.jumbotron{
 
 #contact .socials li a:hover{
     padding:0;
-    color:#f1678d;
+    color:#d2b48c;
     text-decoration:none;
 }
 
@@ -1144,7 +1144,7 @@ header.jumbotron{
 
 #contact-form .form-control {
     background:#fff;
-    background:rgba(255,255,255,0.9);
+    background:rgba(255,255,255,0.94);
     border:none;
     border-radius:1px;
     outline:none;
@@ -1154,7 +1154,7 @@ header.jumbotron{
     font-size:30px;
     line-height:48px;
     font-weight:300;
-    color:#f1678d;
+    color:#d2b48c;
     padding-left:64px;
 }
 
@@ -1162,7 +1162,7 @@ header.jumbotron{
     background:#fff;
     background:rgba(255,255,255,0.94);
     border:none;
-    border-radius:1px;
+    border-radius:5px;
     outline:none;
     box-shadow:none;
     margin-bottom:30px;
@@ -1170,7 +1170,7 @@ header.jumbotron{
     font-size:30px;
     line-height:48px;
     font-weight:300;
-    color:#f1678d;
+    color:#d2b48c;
     padding-left:64px;        
 	max-width:100%;
 	min-width:100%; 
@@ -1188,7 +1188,7 @@ header.jumbotron{
     position:absolute;
     top:0;
     left:5px;
-    color:#f1678d;
+    color:#d2b48c;
     font-size:32px;
     line-height:68px;
     text-align:center;
@@ -1216,22 +1216,22 @@ header.jumbotron{
 }
 
 #contact-form .form-control::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #f1678d;
+    color:    #d2b48c;
 }
 #contact-form .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #f1678d;
+    color:    #d2b48c;
     opacity:1;
 }
 #contact-form .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #f1678d;
+    color:    #d2b48c;
     opacity:1;
 }
 #contact-form .form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #f1678d;
+    color:    #d2b48c;
 }
 
 #contact-form .error-message {
-    background:#f1678d;
+    background:#d2b48c;
     padding:10px 20px;
     position:absolute;
     top:-10px;
@@ -1245,7 +1245,7 @@ header.jumbotron{
 ------------------------*/
 #main-footer {
     background:#fff;
-    color:#f1678d;
+    color:#d2b48c;
     padding:30px 0;
 }
 
@@ -1256,7 +1256,7 @@ header.jumbotron{
     font-size:24px;
     line-height:24px;
     font-weight:normal;
-    color:#f1678d;
+    color:#d2b48c;
 }
 
 #main-footer .small-logo span {
@@ -1279,7 +1279,7 @@ header.jumbotron{
     display:inline-block;
     padding:0 15px;
     line-height:24px;
-    border-right:1px solid #f1678d;
+    border-right:1px solid #d2b48c;
 }
 
 #main-footer ul.footer-nav li:first-child{
@@ -1291,7 +1291,7 @@ header.jumbotron{
 }
 
 #main-footer ul.footer-nav li a{
-    color:#f1678d;
+    color:#d2b48c;
     text-decoration:none;
     font-size:14px;
     line-height:24px;
@@ -1305,12 +1305,12 @@ header.jumbotron{
 
 #main-footer ul.footer-nav li a:hover,
 #main-footer ul.footer-nav li a:active{
-    color:#f386a0;
+    color:#9fb8e0;
     text-decoration:none;
 }
 
 #main-footer p{
-    color:#f1678d;
+    color:#d2b48c;
     font-size:14px;
     line-height:24px;
     font-weight:400;
@@ -1508,7 +1508,7 @@ header.jumbotron{
 @media (max-width: 768px) {
 
 #main-nav .navbar-brand{
-    color:#f1678d;
+    color:#d2b48c;
 }
 
 #main-nav{
@@ -1517,12 +1517,12 @@ header.jumbotron{
 }
 
 #main-nav .navbar-toggle{
-    color:#f1678d;
-    border-color:#f1678d;
+    color:#d2b48c;
+    border-color:#d2b48c;
 }
 
 #main-nav .navbar-toggle .icon-bar{
-    background:#f1678d;
+    background:#d2b48c;
 }
 
 #main-nav .container{
@@ -1532,7 +1532,7 @@ header.jumbotron{
 #main-nav .nav a,
 #main-nav .nav a:active,
 #main-nav .nav a:hover{
-    color:#f1678d;
+    color:#d2b48c;
     line-height:42px;
     text-align:center;
 }

@@ -3,10 +3,10 @@ $(document).ready(function(){
 	$('#toggle-switcher').click(function(){
 		if($(this).hasClass('opened')){
 			$(this).removeClass('opened');
-			$('#style-switcher').animate({'right':'-222px'});
+			$('#style-switcher').animate({'right':'-10px'});
 		}else{
 			$(this).addClass('opened');
-			$('#style-switcher').animate({'right':'-10px'});
+			$('#style-switcher').animate({'right':'-222px'});
 		}
 	});
 	

@@ -1067,13 +1067,13 @@ header.jumbotron{
 ------------------------*/
 
 #contact {
-    background:transparent;
-    color:#fff;
+    background:transparent;    
+    color:#74c7d5;
 	padding:80px 0;
 }
 
 #contact .section-title {
-    color:#fff;
+    color:#74c7d5;
     margin-bottom:84px;
 }
 
@@ -1145,7 +1145,7 @@ header.jumbotron{
 
 #contact-form .form-control {
     background:#fff;
-    background:rgba(255,255,255,0.9);
+    background:rgba(255,255,255,0.94);
     border:none;
     border-radius:1px;
     outline:none;
@@ -1157,6 +1157,26 @@ header.jumbotron{
     font-weight:300;
     color:#74c7d5;
     padding-left:64px;
+}
+
+#contact-form .address-control {
+    background:#fff;
+    background:rgba(255,255,255,0.94);
+    border:none;
+    border-radius:5px;
+    outline:none;
+    box-shadow:none;
+    margin-bottom:30px;
+    height:auto;
+    font-size:30px;
+    line-height:48px;
+    font-weight:300;
+    color:#74c7d5;
+    padding-left:64px;        
+	max-width:100%;
+	min-width:100%; 
+	padding-top:11px;
+	padding-bottom: 11px;
 }
 
 #contact-form .form-group{
