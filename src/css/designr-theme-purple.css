@@ -1130,7 +1130,7 @@ header.jumbotron{
 }
 
 
-#contact-form .form-group label{
+.contact-form .form-group label{
     display:none;
     font-size:18px;
     line-height:24px;
@@ -1138,11 +1138,11 @@ header.jumbotron{
     text-transform:uppercase;
 }
 
-#contact-form.no-placeholder .form-group label{
+.contact-form.no-placeholder .form-group label{
     display:block;
 }
 
-#contact-form .form-control {
+.contact-form .form-control {
     background:#fff;
     background:rgba(255,255,255,0.9);
     border:none;
@@ -1158,7 +1158,7 @@ header.jumbotron{
     padding-left:64px;
 }
 
-#contact-form .address-control {
+.contact-form .address-control {
     background:#fff;
     background:rgba(255,255,255,0.94);
     border:none;
@@ -1178,11 +1178,11 @@ header.jumbotron{
 	padding-bottom: 11px;
 }
 
-#contact-form .form-group{
+.contact-form .form-group{
     position:relative;
 }
 
-#contact-form .form-group [class*="icon-"] {
+.contact-form .form-group [class*="icon-"] {
     display:block;
     width:64px;
     position:absolute;
@@ -1196,11 +1196,11 @@ header.jumbotron{
 
 }
 
-#contact-form.no-placeholder .form-group [class*="icon-"]{
+.contact-form.no-placeholder .form-group [class*="icon-"]{
     top:30px;
 }
 
-#contact-form textarea.form-control {
+.contact-form textarea.form-control {
     height:auto;
 	max-width:100%;
 	min-width:100%;
@@ -1209,28 +1209,28 @@ header.jumbotron{
 	padding-top:14px;
 }
 
-#contact-form .form-control:focus {
+.contact-form .form-control:focus {
     border:none;
     outline:none;
     box-shadow:none;
 }
 
-#contact-form .form-control::-webkit-input-placeholder { /* WebKit browsers */
+.contact-form .form-control::-webkit-input-placeholder { /* WebKit browsers */
     color:    #9661a8;
 }
-#contact-form .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #9661a8;
-    opacity:1;
-}
-#contact-form .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+.contact-form .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     color:    #9661a8;
     opacity:1;
 }
-#contact-form .form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+.contact-form .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #9661a8;
+    opacity:1;
+}
+.contact-form .form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #9661a8;
 }
 
-#contact-form .error-message {
+.contact-form .error-message {
     background:#9661a8;
     padding:10px 20px;
     position:absolute;
